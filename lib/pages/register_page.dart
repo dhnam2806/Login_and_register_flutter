@@ -45,16 +45,6 @@ class _RegisterPageState extends State<RegisterPage> {
     }
   }
 
-  // Future addUser(
-  //     String firstName, String lastName, int age, String email) async {
-  //   await FirebaseFirestore.instance.collection('users').add({
-  //     'firstName': firstName,
-  //     'lastName': lastName,
-  //     'age': age,
-  //     'email': email,
-  //   });
-  // }
-
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();
